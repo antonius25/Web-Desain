@@ -42,6 +42,11 @@ nav a.active{
 	color: #333;
 }
 
+nav a:hover{
+	background: #fff;
+	color:#333;
+}
+
 
 header form{
 	float: right;
@@ -116,9 +121,9 @@ footer{
 	clear: both;
 	margin: 20px 0;
 	text-align: center;
-	background: #f0f0f0;
+	background: #333;
 	padding: 5px;
-	color: #555;
+	color: #fff;
 }
 
 input[type=text],input[type=email],textarea,input[type=url]{
@@ -154,7 +159,7 @@ input[type=text]:focus,input[type=email]:focus,textarea:focus,input[type=url]:fo
 }
 
 
-#form {
+section {
 	width: 470px;
 	float: left;
 	border-radius: 5px;
@@ -178,4 +183,39 @@ input[type=text]:focus,input[type=email]:focus,textarea:focus,input[type=url]:fo
 #kategori li a{
 	color: #333;
 	text-decoration: none;
+}
+.text-center{
+	margin-bottom: 10px;
+	text-align: center;
+}
+hr{
+	margin: 10px 0;
+}
+
+.hero{
+	width: 100%;
+	height: auto;
+}
+
+.hero img{
+	width: 100%;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-border{
+	margin: 10px 0;
+	border-left:5px solid #4CAF50;
+	padding-left: 10px;
+}
+
+.text-date{
+	font-size: 14px;
+	color: #333;
+}
+
+.detail p{
+	line-height: 25px;
 }
